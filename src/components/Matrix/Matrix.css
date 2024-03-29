@@ -1,0 +1,20 @@
+.matrix {
+  direction: ltr;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(calc((100% - 30px) / 7), 1fr)
+  ); /* تعداد ستون‌ها اتوماتیک تعیین می‌شود */
+  gap: 5px;
+  margin: 0.8rem 0.5rem;
+}
+.cell {
+  padding-top: calc((100% - 30px) / 7); /* برای ایجاد ارتفاع مساوی */
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}

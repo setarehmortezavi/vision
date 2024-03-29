@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Dirooz";
+  src: url("font/Dirooz.ttf");
+}
+
+body {
+  font-family: Dirooz;
+  direction: rtl;
+  margin: 0;
+  padding: 0.8rem 0.6rem;
+}
+
+.nav-list {
+  padding: 0;
+  display: flex;
+  align-items: center; /* تراز کردن موارد با علامت */
+  justify-content: start;
+  list-style: none;
+  margin-top: 0; /* حذف فاصله بالایی */
+}
+
+.nav-list li {
+  padding: 0 0.4rem;
+}
+
+.nav-list a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.switch {
+  margin-right: auto;
+  text-align: center;
+  padding: 0.4rem;
+  width: 36px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  color: white;
+}
+
+.searchbox {
+  background-color: #fff;
+  padding: 0.3rem 0.4rem 0.3rem 0.3rem;
+}
+
+.inputarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="text"] {
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  width: 100%;
+  margin: 0 0 0 0.6rem;
+}
+
+.searchIcon {
+  cursor: pointer;
+}
+
+.filterize {
+  color: #fff;
+  border-radius: 8px;
+  font-family: inherit;
+  border: 0;
+  outline: 0;
+  padding: 0.4rem 0.5rem;
+  margin-right: 0.3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.physic {
+  background: rgb(238, 174, 202);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(182, 68, 227, 1) 41%,
+    rgba(124, 84, 213, 1) 49%,
+    rgba(108, 137, 255, 1) 65%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(182, 68, 227, 1) 41%,
+    rgba(124, 84, 213, 1) 49%,
+    rgba(108, 137, 255, 1) 65%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(182, 68, 227, 1) 41%,
+    rgba(124, 84, 213, 1) 49%,
+    rgba(108, 137, 255, 1) 65%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.creative {
+  background: rgb(88, 78, 244);
+  background: -moz-linear-gradient(
+    63deg,
+    rgba(88, 78, 244, 1) 0%,
+    rgba(97, 83, 246, 1) 25%,
+    rgba(243, 242, 254, 1) 38%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(215, 247, 244, 1) 45%,
+    rgba(0, 239, 218, 1) 48%,
+    rgba(86, 255, 239, 1) 65%,
+    rgba(30, 208, 190, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    63deg,
+    rgba(88, 78, 244, 1) 0%,
+    rgba(97, 83, 246, 1) 25%,
+    rgba(243, 242, 254, 1) 38%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(215, 247, 244, 1) 45%,
+    rgba(0, 239, 218, 1) 48%,
+    rgba(86, 255, 239, 1) 65%,
+    rgba(30, 208, 190, 1) 100%
+  );
+  background: linear-gradient(
+    63deg,
+    rgba(88, 78, 244, 1) 0%,
+    rgba(97, 83, 246, 1) 25%,
+    rgba(243, 242, 254, 1) 38%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(215, 247, 244, 1) 45%,
+    rgba(0, 239, 218, 1) 48%,
+    rgba(86, 255, 239, 1) 65%,
+    rgba(30, 208, 190, 1) 100%
+  );
+}
+
+.charity {
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    61deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(247, 247, 247, 1) 27%,
+    rgba(0, 0, 0, 1) 76%,
+    rgba(255, 255, 255, 1) 60%
+  );
+  background: -webkit-linear-gradient(
+    61deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(247, 247, 247, 1) 7%,
+    rgba(0, 0, 0, 1) 76%,
+    rgba(255, 255, 255, 1) 90%
+  );
+  background: linear-gradient(
+    61deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(247, 247, 247, 1) 7%,
+    rgba(0, 0, 0, 1) 76%,
+    rgba(255, 255, 255, 1) 94%
+  );
+}
+.politics {
+  background: rgb(34, 193, 195);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
